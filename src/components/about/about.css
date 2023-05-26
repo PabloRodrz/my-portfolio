@@ -1,0 +1,62 @@
+.about {
+  height: calc(100vh - 5.25rem);
+  background-color: var(--dark);
+}
+
+.about-hr {
+  width: inherit;
+  margin-top: 5px;
+  padding: 0;
+  border: none;
+  height: 4px;
+  background: #720e9e;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+
+.about-span-intro {
+  color: rgba(211, 211, 211, 0.555);
+  margin-bottom: 6px;
+}
+
+.about-h1 {
+  font-weight: 700;
+}
+
+.about-span-desc {
+  color: #720e9e;
+  font-size: 20px;
+}
+
+.about-img {
+  width: 300px;
+  margin-top: -20px;
+  border: 1px solid rgba(211, 211, 211, 0.4);
+}
+
+.about-me {
+  line-height: 1.6rem;
+}
+
+.about-second-hr {
+  margin-top: 2rem;
+  padding: 0;
+  border: none;
+  height: 2px;
+  background: rgba(211, 211, 211, 0.3);
+}
+
+.about-btn {
+  width: 10rem;
+  padding: 5px !important;
+  background-color: #720e9e !important;
+  border: none !important;
+}
+
+.availabilty-span {
+  margin-right: 3rem;
+}
+
+a {
+  text-decoration: none !important;
+}
