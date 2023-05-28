@@ -3,18 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 import linkedinLogo from '../../assets/linkedin.svg'
 import githubLogo from '../../assets/github.svg'
 import './home.css'
-import { useEffect, useState } from "react"
-const Home = () => {
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth)
-  useEffect(() => {
-    const handleResize = () => {
-      setIsDesktop(window.innerWidth);
-    }
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, [window.innerWidth])
+const Home = ({ isDesktop }) => {
   return (
     <Container fluid className="home">
       <Row>

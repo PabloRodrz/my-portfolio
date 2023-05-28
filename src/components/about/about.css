@@ -34,6 +34,12 @@
   border: 1px solid rgba(211, 211, 211, 0.4);
 }
 
+.about-img-mobile {
+  width: 160px;
+  border: 1px solid rgba(211, 211, 211, 0.4);
+  margin-top: -5px;
+}
+
 .about-me {
   line-height: 1.6rem;
 }
