@@ -1,5 +1,5 @@
 .about {
-  height: calc(100vh - 5.25rem);
+  height: calc(100vh - 3.25rem);
   background-color: var(--dark);
 }
 
@@ -57,6 +57,7 @@
   padding: 5px !important;
   background-color: #720e9e !important;
   border: none !important;
+  margin-top: 1rem !important;
 }
 
 .availabilty-span {
@@ -65,4 +66,19 @@
 
 a {
   text-decoration: none !important;
+}
+
+.about-flag {
+  width: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .about-btn {
+    margin-top: 1rem !important;
+    align-self: center;
+  }
+
+  .about-second-col {
+    padding-bottom: 1rem;
+  }
 }

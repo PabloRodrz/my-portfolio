@@ -7,4 +7,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   --dark: #101010;
+  background-color: var(--dark);
+}
+
+html,
+body {
+  background-color: var(--dark);
 }

@@ -1,4 +1,71 @@
 .contact {
-  height: calc(100vh - 5.25rem);
-  background-color: pink;
+  height: calc(100svh - 5.25rem);
+  background-color: var(--dark);
+}
+
+.contact-h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.contact-hr {
+  width: 10rem !important;
+  margin-top: 3px !important;
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 4px;
+  background: #720e9e;
+  border-radius: 4px;
+  opacity: 0.7;
+}
+
+.contact-image {
+  height: 12rem;
+}
+
+.image {
+  width: 16px;
+}
+
+.linkedin-btn {
+  margin-right: 15rem;
+}
+
+.email-btn {
+  margin-left: 15rem;
+}
+
+.image:hover img {
+  transition: transform 400ms ease-in;
+  transform: scale(1.2);
+  filter: invert(80%) sepia(100%) saturate(6937%) hue-rotate(286deg) brightness(75%) contrast(95%);
+}
+
+@media (max-width: 992px) {
+  .image {
+    height: 5rem !important;
+  }
+
+  .contact-image {
+    height: 8rem;
+  }
+
+  .linkedin-btn,
+  .email-btn {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .email-btn {
+    margin-bottom: 6rem !important;
+  }
+
+  .col-btns {
+    gap: 6rem !important;
+  }
+
+  .contact {
+    height: 100%;
+  }
 }

@@ -1,0 +1,39 @@
+.col {
+  position: relative;
+}
+
+.card-container {
+  width: 16rem;
+  height: 11rem;
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card-container:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.btn-img {
+  height: 3rem;
+}
+
+.card-buttons {
+  width: 16px;
+  position: absolute !important;
+  top: 40%;
+  left: 45%;
+  opacity: 1;
+  z-index: 3;
+}

@@ -1,6 +1,8 @@
 import { forwardRef } from "react"
 import './about.css'
 import { Button, Col, Container, Row, Image } from "react-bootstrap"
+import argFlag from '../../assets/argentina.png'
+
 const About = forwardRef(({ isDesktop }, ref) => {
   return (
     <Container fluid className="about d-flex flex-column gap-4" ref={ref}>
@@ -29,7 +31,7 @@ const About = forwardRef(({ isDesktop }, ref) => {
               <Row>
                 <Col className="d-flex flex-column gap-3">
                   <span className="text-white">Name: Pablo Rodriguez</span>
-                  <span className="text-white">Location: Argentina 🇦🇷</span>
+                  <span className="text-white">Location: Argentina <Image className="about-flag" src={argFlag} /></span>
                 </Col>
                 <Col className="d-flex flex-column align-items-end gap-3">
                   <span className="text-white">Email: pablorodz9@hotmail.com</span>
@@ -40,6 +42,7 @@ const About = forwardRef(({ isDesktop }, ref) => {
                 <Col xs={5} md={11} className='d-flex justify-content-center'>
                   <Button className="about-btn rounded-3">
                     <a
+                      rel="noopener noreferrer"
                       className="text-white"
                       target="blank"
                       href="https://drive.google.com/file/d/1U-3XHdXdx8ZA72aEMfad5ULUsIi8IJBF/view?usp=drive_link">
@@ -64,14 +67,15 @@ const About = forwardRef(({ isDesktop }, ref) => {
               I feel motivated to learn, grow and develop my career in this fascinating
               area with a group of people full of empathy, good communication and synergy.
             </p>
-            <Col className="d-flex flex-column gap-2 w-75">
+            <Col className="about-second-col d-flex flex-column gap-2 w-75">
               <hr className="about-second-hr w-100" />
               <span className="text-white">Name: Pablo Rodriguez</span>
-              <span className="text-white">Location: Argentina 🇦🇷</span>
+              <span className="text-white">Location: Argentina  <Image className="about-flag" src={argFlag} /></span>
               <span className="text-white">Email: pablorodz9@hotmail.com</span>
               <span className="text-white availabilty-span">Availability: Open to work</span>
-              <Button className="about-btn rounded-3 mt-3">
+              <Button className="about-btn rounded-3">
                 <a
+                  rel="noopener noreferrer"
                   className="text-white"
                   target="blank"
                   href="https://drive.google.com/file/d/1U-3XHdXdx8ZA72aEMfad5ULUsIi8IJBF/view?usp=drive_link">

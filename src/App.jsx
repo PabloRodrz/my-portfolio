@@ -26,12 +26,13 @@ const App = () => {
         skillsRef={skillsRef}
         aboutRef={aboutRef}
         contactRef={contactRef}
-        projectsRef={projectsRef} />
+        projectsRef={projectsRef}
+        isDesktop={isDesktop} />
       <Home isDesktop={isDesktop} />
       <About ref={aboutRef} isDesktop={isDesktop} />
-      <Skills ref={skillsRef} />
+      <Skills ref={skillsRef} isDesktop={isDesktop} />
       <Projects ref={projectsRef} />
-      <Contact ref={contactRef} />
+      <Contact ref={contactRef} isDesktop={isDesktop} />
     </>
   )
 }

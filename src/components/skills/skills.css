@@ -4,7 +4,8 @@
 }
 
 .logos {
-  width: 115px;
+  width: 160px;
+  margin-bottom: 5rem;
   object-fit: contain;
 }
 
@@ -15,7 +16,7 @@
 
 .white-bg {
   background-color: white;
-  border-radius: 50%;
+  border-radius: 18%;
 }
 
 .skills-hr {
@@ -28,4 +29,23 @@
   background: #720e9e;
   border-radius: 4px;
   opacity: 0.7;
+}
+
+.logos-col {
+  margin-bottom: 4rem;
+}
+
+.first-skills-row {
+  margin-bottom: -2rem;
+}
+
+
+@media (max-width: 992px) {
+  .logos {
+    width: 50px;
+  }
+
+  .skills {
+    height: 100%;
+  }
 }

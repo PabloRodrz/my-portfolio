@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import './navigationbar.css'
-const NavigationBar = ({ projectsRef, contactRef, aboutRef, skillsRef }) => {
+const NavigationBar = ({ projectsRef, contactRef, aboutRef, skillsRef, isDesktop }) => {
   const scrollToComponent = (ref) => {
     const scrollOffset = 84;
     window.scrollTo({
@@ -19,7 +19,7 @@ const NavigationBar = ({ projectsRef, contactRef, aboutRef, skillsRef }) => {
         <Navbar.Text style={{ fontWeight: '700' }} className='mx-5 h4 text-white'>My Portfolio</Navbar.Text>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="responsive-navbar-nav text-white text-center">
-          <Nav className="ms-auto gap-4 mx-5">
+          <Nav className={`ms-auto gap-4 ${isDesktop < 992 ? '' : 'mx-5'}`}>
             <Nav.Link onClick={() => scrollToTop()} className='nav-links text-white'>Home</Nav.Link>
             <Nav.Link onClick={() => scrollToComponent(aboutRef)} className='nav-links text-white'>About</Nav.Link>
             <Nav.Link onClick={() => scrollToComponent(skillsRef)} className='nav-links text-white'>Skills</Nav.Link>

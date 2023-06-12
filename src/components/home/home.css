@@ -1,5 +1,5 @@
 .home {
-  height: calc(100vh - 5.25rem);
+  height: calc(100svh - 5.25rem);
   background-color: var(--dark);
 }
 
@@ -12,6 +12,7 @@
   transform: scale(1.2);
   filter: invert(80%) sepia(100%) saturate(6937%) hue-rotate(286deg) brightness(75%) contrast(95%);
 }
+
 
 .home-icons-col {
   margin-top: -2rem !important;
