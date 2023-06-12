@@ -1,8 +1,7 @@
 import { Button, Col, Container, Image, Row } from "react-bootstrap"
-import firstProject from '../../assets/first-project.png'
 import './card.css'
-import display from '../../assets/display.svg'
-import githubLogo from '../../assets/github.svg'
+import display from '../../../public/static/assets/display.svg'
+import githubLogo from '../../../public/static/assets/github.svg'
 import { useState } from "react"
 
 

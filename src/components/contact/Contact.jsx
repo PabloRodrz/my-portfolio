@@ -1,8 +1,8 @@
 import { forwardRef } from "react"
 import './contact.css'
 import { Col, Container, Row, Button, Image, OverlayTrigger, Tooltip } from "react-bootstrap"
-import linkedinLogo from '../../assets/linkedin.svg'
-import emailLogo from '../../assets/email.svg'
+import linkedinLogo from '../../../public/static/assets/linkedin.svg'
+import emailLogo from '../../../public/static/assets/email.svg'
 const Contact = forwardRef(({ isDesktop }, ref) => {
   const renderTooltip = text => <Tooltip>{text}</Tooltip >
   return (
