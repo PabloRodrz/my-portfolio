@@ -1,7 +1,7 @@
 import { Typewriter } from "react-simple-typewriter"
 import { Container, Row, Col, Button, Image } from "react-bootstrap"
-import linkedinLogo from '../../../public/static/assets/linkedin.svg'
-import githubLogo from '../../../public/static/assets/github.svg'
+import linkedinLogo from '../../assets/linkedin.svg'
+import githubLogo from '../../assets/github.svg'
 import './home.css'
 const Home = ({ isDesktop }) => {
   return (

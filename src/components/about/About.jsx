@@ -1,7 +1,7 @@
 import { forwardRef } from "react"
 import './about.css'
 import { Button, Col, Container, Row, Image } from "react-bootstrap"
-import argFlag from '../../../public/static/assets/argentina.png'
+import argFlag from '../../assets/argentina.png'
 
 const About = forwardRef(({ isDesktop }, ref) => {
   return (
@@ -16,7 +16,7 @@ const About = forwardRef(({ isDesktop }, ref) => {
           </Row>
           <Row className="gap-5">
             <Col className="d-flex align-items-center justify-content-end" xs={4}>
-              <Image className="p-2 about-img" src="public\static\assets\foto-cv.jpg" alt="my-picture" />
+              <Image className="p-2 about-img" src="src\assets\foto-cv.jpg" alt="my-picture" />
             </Col>
             <Col className="d-flex flex-column justify-content-start" xs={6} offset={2}>
               <span className="about-span-desc"> Hi! Nice to meet you :) </span>
@@ -58,7 +58,7 @@ const About = forwardRef(({ isDesktop }, ref) => {
           <Col xs={12} className="d-flex flex-column justify-content-center align-items-center">
             <span className="about-span-intro">Let me introduce myself</span>
             <h1 className='about-h1 text-white'>About me  <hr className="about-hr" /></h1>
-            <Image className="p-2 about-img-mobile rounded-5" src="public\static\assets\foto-cv.jpg" alt="my-picture" />
+            <Image className="p-2 about-img-mobile rounded-5" src="src\assets\foto-cv.jpg" alt="my-picture" />
             <span className="about-span-desc mt-2"> Hi! Nice to meet you :) </span>
             <p className="text-white mt-3 text-justify about-me w-75">I'm a 23 years old frontend developer very passionate and eager to learn.<br />
               My goal is to learn as much as I can to become my better version as a developer.<br />
