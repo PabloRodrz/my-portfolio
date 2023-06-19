@@ -3,7 +3,9 @@ import { Container, Row, Col, Button, Image } from "react-bootstrap"
 import linkedinLogo from '../../assets/linkedin.svg'
 import githubLogo from '../../assets/github.svg'
 import './home.css'
+import { useTranslation } from "react-i18next"
 const Home = ({ isDesktop }) => {
+  const [t, i18n] = useTranslation("global")
   return (
     <Container fluid className="home">
       <Row>
@@ -13,7 +15,7 @@ const Home = ({ isDesktop }) => {
           </span>
           <span style={{ color: '#720e9e', fontSize: '2.5rem', marginTop: '-0.5rem' }}>
             <Typewriter
-              words={[`Frontend Developer`]}
+              words={[`${t('home.title')}`]}
               loop
               cursor
               cursorStyle='|'

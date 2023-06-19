@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "myPortfolio": "Mi Portafolio",
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Desarrollador Frontend"
+  },
+  "about": {
+    "introduction": "Permitime presentarme",
+    "aboutMe": "Sobre mí",
+    "niceToMeetYou": "¡Hola! Mucho gusto :)",
+    "description": "Soy un desarrollador frontend de 23 años, apasionado y con muchas ganas de aprender. Mi objetivo es crecer y aprender todo lo que pueda para convertirme en mi mejor versión como desarrollador. Soy una persona proactiva y empática. También disfruto trabajar en equipo y tengo excelentes habilidades comunicativas y de escucha. Me siento motivado para aprender, crecer y desarrollar mi carrera en esta fascinante área junto a un grupo de personas llenas de empatía, buena comunicación y sinergia.",
+    "name": "Nombre: Pablo Rodríguez",
+    "location": "Ubicación: Argentina",
+    "availability": "Disponibilidad: Full time",
+    "viewResume": "Ver currículum"
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects": {
+    "title": "Proyectos"
+  },
+  "contact": {
+    "title": "Contacto",
+    "linkedin": "Haz clic aquí para ir a mi LinkedIn",
+    "email": "Haz clic aquí para enviarme un correo electrónico"
+  }
+}

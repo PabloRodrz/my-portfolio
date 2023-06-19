@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "myPortfolio": "My Portfolio",
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Frontend developer"
+  },
+  "about": {
+    "introduction": "Let me introduce myself",
+    "aboutMe": "About me",
+    "niceToMeetYou": "Hi! Nice to meet you :)",
+    "description": "I'm a 23 years old frontend developer very passionate and eager to learn. My goal is to learn as much as I can to become my better version as a developer. I'm a proactive and empathetic person. Also a team player with great communication and listening skills. I feel motivated to learn, grow and develop my career in this fascinating area with a group of people full of empathy, good communication, and synergy.",
+    "name": "Name: Pablo Rodriguez",
+    "location": "Location: Argentina",
+    "availability": "Availability: Open to work",
+    "viewResume": "View resume"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "contact": {
+    "title": "Contact",
+    "linkedin": "Click here to go to my LinkedIn",
+    "email": "Click here to send me an Email"
+  }
+}

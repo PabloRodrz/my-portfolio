@@ -3,12 +3,14 @@ import './contact.css'
 import { Col, Container, Row, Button, Image, OverlayTrigger, Tooltip } from "react-bootstrap"
 import linkedinLogo from '../../assets/linkedin.svg'
 import emailLogo from '../../assets/email.svg'
+import { useTranslation } from "react-i18next"
 const Contact = forwardRef(({ isDesktop }, ref) => {
+  const [t, i18n] = useTranslation('global')
   const renderTooltip = text => <Tooltip>{text}</Tooltip >
   return (
     <Container fluid className="contact d-flex flex-column gap-5" ref={ref}>
       <Row className="d-flex justify-content-center">
-        <h1 className="contact-h1 mt-2 text-center text-white">Contact</h1>
+        <h1 className="contact-h1 mt-2 text-center text-white">{t('contact.title')}</h1>
         <hr className="contact-hr text-center" />
       </Row>
       <Row className="h-75">
@@ -19,7 +21,7 @@ const Contact = forwardRef(({ isDesktop }, ref) => {
             <OverlayTrigger
               placement="top"
               delay={{ show: 400, hide: 20 }}
-              overlay={renderTooltip('Click here to go to my LinkedIn')}
+              overlay={renderTooltip(`${t('contact.linkedin')}`)}
             >
               <Image className="contact-image" src={linkedinLogo} alt="LinkedIn logo" />
             </OverlayTrigger>
@@ -29,7 +31,8 @@ const Contact = forwardRef(({ isDesktop }, ref) => {
             <OverlayTrigger
               placement="top"
               delay={{ show: 400, hide: 20 }}
-              overlay={renderTooltip('Click here to send me an Email. pablorodz9@hotmail.com')}
+              overlay={renderTooltip(`${t('contact.email')}.
+              pablorodz9@hotmail.com`)}
             >
               <Image className="contact-image" src={emailLogo} alt="Github logo" />
             </OverlayTrigger>
