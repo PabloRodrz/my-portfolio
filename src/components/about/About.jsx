@@ -69,8 +69,8 @@ const About = forwardRef(({ isDesktop }, ref) => {
                   rel="noopener noreferrer"
                   className="text-white"
                   target="blank"
-                  href="https://drive.google.com/file/d/1U-3XHdXdx8ZA72aEMfad5ULUsIi8IJBF/view?usp=drive_link">
-                  View resume
+                  href={`${currentLanguage === 'es' ? 'https://drive.google.com/file/d/1xjfKFRd1rrR31J72i8Z-Z33WHsvERNqm/view' : 'https://drive.google.com/file/d/1U-3XHdXdx8ZA72aEMfad5ULUsIi8IJBF/view?usp=drive_link'}`}>
+                  {t('about.viewResume')}
                 </a>
               </Button>
             </Col>
