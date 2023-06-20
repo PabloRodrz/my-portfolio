@@ -148,12 +148,12 @@ export const PROJECTS = {
   "tenth-project": {
     image: tenthProject,
     repo: "https://github.com/PabloRodrz/expenses-chart-component",
-    demo: "URL_de_la_demo_del_décimo_proyecto"
+    demo: "https://expenses-chart-component-jade-zeta.vercel.app/"
   },
   "fifteenth-project": {
     image: fifteenthProject,
     repo: "https://github.com/PabloRodrz/to-do-CRUD-app",
-    demo: "https://expenses-chart-component-jade-zeta.vercel.app/"
+    demo: "https://github.com/PabloRodrz/to-do-CRUD-app"
   },
   "third-project": {
     image: thirdProject,
