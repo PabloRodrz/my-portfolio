@@ -11,7 +11,7 @@ const Projects = forwardRef((_, ref) => {
     <Container ref={ref} fluid className="projects">
       <Row className='d-flex justify-content-center'>
         <h1 className='projects-h1 text-center text-white mt-5'>{t('projects.title')}</h1>
-        <hr className='projects-hr' />
+        <hr className='projects-hr mb-4' />
       </Row>
       <Row>
         {
